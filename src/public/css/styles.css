@@ -1,0 +1,169 @@
+
+
+body{
+    background-color: rgba(225,222,222,1);
+}
+header{
+
+    background-color: rgb(206, 206, 206);
+}
+
+.cuadro{
+    height: 600px;
+}
+
+.contenedor{
+    align-items: center;
+
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.texto{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1em;
+    position: absolute;
+    display: block;
+    text-align: center;
+    
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 220px;
+
+}
+.mision{
+    font-size: 1em;
+}
+
+
+.imagen{
+    height: 300px;
+    padding-top: 240px;
+    display: block;
+    mix-blend-mode: darken;
+/* Navbar Shadow */
+
+filter: drop-shadow(0px 1px 0px #E5E9F2);
+}
+
+.imagen-mision{
+    
+    mix-blend-mode: darken;
+    filter: drop-shadow(0px 1px 0px #E5E9F2)  ;
+}
+.imagen3{
+    height: 300px;
+    padding-top: 325px;
+    display: block;
+    mix-blend-mode: darken;
+
+
+}
+.centrado{
+    position: absolute;
+width: 910px;
+height: 136px;
+left: 46.38px;
+top: 278px;
+
+font-family: 'Ledger';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 68px;
+/* or 169% */
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #FFFFFF;
+
+text-shadow: 0px 11.2672px 11.2672px rgba(0, 0, 0, 0.25);
+}
+
+.texto-objetivo{
+
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1em;
+    position: absolute;
+    display: block;
+    text-align: justify;
+    
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 220px;
+
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+.img-entrenador{
+    
+    padding: 70px 700px;
+    mix-blend-mode: darken;
+}
+div.pfooter{
+	display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(60px, auto);
+}
+
+div.funo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D9DBE1;
+}
+div.fdos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.ftres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D9DBE1;
+}
+
+ul{
+    display: flex ;
+    
+}
+li{
+    margin-right: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+li a{
+    color:black;
+ 
+    text-decoration: none;
+}
+
+
+li button{
+    color: white;
+}
+
+p{
+    margin: auto;
+}
+
+
+
+footer{
+
+    background-color: #0B0D17;
+    margin: auto 0;
+    padding: 1 ;
+}

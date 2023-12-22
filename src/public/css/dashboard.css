@@ -1,0 +1,226 @@
+body {
+
+    background: rgba(243, 243, 243, 1);
+
+}
+
+.barra {
+    background-color: #0B0D17;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.dropdown-menu {
+    background-color: #0B0D17;
+    margin: 17px;
+    background: #262a34;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.menuperfil {
+    color: white;
+
+    background-color: #0B0D17;
+}
+
+.menuperfil:focus {
+    background-color: #0B0D17;
+    background: #00fdd3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.cerrar:hover {
+    background-color: rgba(0, 238, 255, 0.877);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.user {
+    font-size: 35px;
+}
+
+
+/*BARRA LATERAL*/
+
+.barra-lateral {
+    background-color: #0B0D17;
+    color: #fff;
+    min-width: 250px;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.barra-lateral a {
+    color: #fff;
+}
+
+
+/*ESTILOS MENU*/
+
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.barra-lateral .menu a:hover {
+    background-color: #aa00f8; /* Color al pasar el mouse del menu d enavegacion lateral*/
+    text-decoration: none;   /* Quita el link de los a */
+}
+
+.active {
+    background: #003C5D;
+}
+
+.barra-lateral .menu {
+    border-top: 5px #fff solid;
+}
+
+.barra-lateral .menu a i {
+    margin-right: 20px;
+}
+
+
+/*MAIN*/
+
+.main {
+    padding-top: 40px;
+}
+
+.main .columna {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*mediaquerys*/
+
+@media screen and (max-width:1300px) {
+    .barra-lateral {
+        min-width: auto;
+    }
+    .barra-lateral .menu a span {
+        display: none;
+    }
+    .barra-lateral .menu a i {
+        margin: 0;
+    }
+    .barra {
+        min-width: auto;
+    }
+    .dropdown-menu {
+        margin: 20px -79px 0px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        min-height: auto;
+    }
+    .barra-lateral .menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78px 0px;
+    }
+    .logocppe {
+        width: 100%;
+    }
+    body {
+        background: #D3D3D3;
+        font-size: 16px;
+        overflow: visible;
+    }
+}
+
+.formulariorecursos {
+ 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.menu {
+
+    border-top: 5px plum solid;
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        height: auto;
+    }
+    .barra-lateral.menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78 0px;
+    }
+    body {
+        font-size: 16px;
+        overflow: visible;
+    }
+}
+.subtitulo{
+    text-align: center;
+}
+
+.imagen{
+    width: 900px;
+margin-left: -200px;
+    padding: 50px;
+    display: inline-block;
+}
+div.pfooter{
+	display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(60px, auto);
+}
+
+div.funo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D9DBE1;
+}
+div.fdos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.ftres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D9DBE1;
+}
+
+ul{
+    display: flex ;
+    
+}
+li{
+    margin-right: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+li a{
+    color:black;
+ 
+    text-decoration: none;
+}
+
+
+li button{
+    color: white;
+}
+
+p{
+    margin: auto;
+}
+

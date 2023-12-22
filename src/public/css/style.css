@@ -1,0 +1,13 @@
+#section{
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 10px;
+}
+
+.figura-imagen{
+    background-color: blue;
+    width: 100%;
+    margin-right: 10%;
+}

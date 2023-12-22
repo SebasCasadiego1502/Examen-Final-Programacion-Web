@@ -1,0 +1,17 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#section{
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.figura-imagen{
+  
+    width: 100%;
+    margin-right: 10%;
+}
